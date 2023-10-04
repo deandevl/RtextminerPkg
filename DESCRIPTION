@@ -2,9 +2,11 @@ Package: RtextminerPkg
 Title: Useful functions for accomplishing text analysis/mining in R
 Version: 0.0.0.9000
 Author: Rick Dean, <deanr3@bardstown.com>
+Maintainer: Rick Dean, <deanr3@bardstown.com>
 Description: A collection of simple functions to assist in text analysis with R.
+Imports: RplotterPkg, data.table, ggplot2, stringr, tokenizers
 License: MIT
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
